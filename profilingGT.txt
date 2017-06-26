@@ -1,0 +1,113 @@
+Sun Jun 25 18:22:45 2017    restats
+
+         675458 function calls (666568 primitive calls) in 1.808 seconds
+
+   Ordered by: internal time
+   List reduced from 278 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      284    0.463    0.002    0.463    0.002 tools_karkkainen_sanders.py:5(radixpass)
+    71/20    0.406    0.006    0.912    0.046 tools_karkkainen_sanders.py:39(kark_sort)
+       20    0.137    0.007    0.137    0.007 rstr_max.py:39(step2_lcp)
+       20    0.098    0.005    0.222    0.011 rstr_max.py:67(step3_rstr)
+    35000    0.084    0.000    0.095    0.000 rstr_max.py:118(removeMany)
+       72    0.068    0.001    0.078    0.001 utils.py:362(ChenFoxLyndonBreakpoints)
+       20    0.048    0.002    0.978    0.049 rstr_max.py:15(step1_sort_suffix)
+    84186    0.028    0.000    0.028    0.000 {built-in method builtins.max}
+     2302    0.025    0.000    0.097    0.000 dseqrecord.py:138(__init__)
+       71    0.023    0.000    0.023    0.000 tools_karkkainen_sanders.py:48(<listcomp>)
+        1    0.023    0.023    1.808    1.808 assembly.py:126(__init__)
+       71    0.021    0.000    0.021    0.000 tools_karkkainen_sanders.py:77(<listcomp>)
+187259/178457    0.020    0.000    0.025    0.000 {built-in method builtins.len}
+     1620    0.020    0.000    0.041    0.000 dseq.py:471(__getitem__)
+     6619    0.019    0.000    0.019    0.000 {method 'split' of 'str' objects}
+      960    0.016    0.000    0.016    0.000 __init__.py:440(__getitem__)
+     4687    0.015    0.000    0.015    0.000 {method 'lower' of 'str' objects}
+     3320    0.015    0.000    0.039    0.000 dseq.py:294(__init__)
+      810    0.015    0.000    0.091    0.000 SeqRecord.py:322(__getitem__)
+     3102    0.015    0.000    0.027    0.000 copy.py:269(_reconstruct)
+       20    0.011    0.001    0.930    0.046 tools_karkkainen_sanders.py:30(direct_kark_sort)
+    53296    0.010    0.000    0.010    0.000 {method 'pop' of 'list' objects}
+       20    0.009    0.000    1.346    0.067 common_sub_strings.py:16(common_sub_strings)
+     3102    0.009    0.000    0.049    0.000 copy.py:67(copy)
+      628    0.009    0.000    0.009    0.000 __init__.py:1746(vertex)
+    11900    0.009    0.000    0.009    0.000 {built-in method builtins.hasattr}
+     1742    0.009    0.000    0.033    0.000 SeqFeature.py:266(_shift)
+      810    0.008    0.000    0.175    0.000 dseqrecord.py:945(__getitem__)
+      815    0.007    0.000    0.007    0.000 {method 'strftime' of 'datetime.date' objects}
+      815    0.007    0.000    0.007    0.000 {built-in method today}
+     5210    0.007    0.000    0.007    0.000 SeqRecord.py:72(__init__)
+     2323    0.006    0.000    0.013    0.000 SeqRecord.py:300(_set_seq)
+       20    0.006    0.000    0.006    0.000 tools_karkkainen_sanders.py:36(<listcomp>)
+     3102    0.006    0.000    0.006    0.000 {method '__reduce_ex__' of 'object' objects}
+      580    0.005    0.000    0.037    0.000 SeqRecord.py:769(__add__)
+      217    0.005    0.000    0.033    0.000 _simple_paths8_GT.py:16(all_simple_paths_edges)
+    54791    0.005    0.000    0.005    0.000 {method 'append' of 'list' objects}
+     1395    0.005    0.000    0.010    0.000 SeqRecord.py:153(__init__)
+     1742    0.005    0.000    0.017    0.000 SeqFeature.py:842(_shift)
+     6204    0.005    0.000    0.005    0.000 {built-in method builtins.getattr}
+    28157    0.005    0.000    0.005    0.000 {built-in method builtins.isinstance}
+     1492    0.005    0.000    0.011    0.000 SeqRecord.py:236(_set_per_letter_annotations)
+     3917    0.005    0.000    0.005    0.000 {method 'update' of 'dict' objects}
+     1742    0.004    0.000    0.004    0.000 SeqFeature.py:218(_get_location_operator)
+      580    0.004    0.000    0.078    0.000 dseqrecord.py:919(__add__)
+      260    0.004    0.000    0.012    0.000 __init__.py:1763(edge)
+      580    0.004    0.000    0.017    0.000 dseq.py:825(__add__)
+     3484    0.004    0.000    0.007    0.000 SeqFeature.py:1378(_shift)
+    20150    0.004    0.000    0.004    0.000 {built-in method builtins.setattr}
+    21020    0.003    0.000    0.003    0.000 SeqRecord.py:318(<lambda>)
+     1095    0.003    0.000    0.015    0.000 dseq.py:622(rc)
+     1782    0.003    0.000    0.005    0.000 SeqFeature.py:589(__init__)
+      854    0.003    0.000    0.033    0.000 assembly.py:59(__init__)
+      174    0.003    0.000    0.003    0.000 __init__.py:458(__setitem__)
+     7128    0.003    0.000    0.004    0.000 Seq.py:221(__len__)
+     6690    0.002    0.000    0.002    0.000 {built-in method __new__ of type object at 0x7f4020b24220}
+     3320    0.002    0.000    0.003    0.000 Seq.py:82(__init__)
+     1782    0.002    0.000    0.003    0.000 SeqFeature.py:91(__init__)
+     3564    0.002    0.000    0.003    0.000 SeqFeature.py:1358(__new__)
+      784    0.002    0.000    0.002    0.000 _simple_paths8_GT.py:19(<lambda>)
+       81    0.002    0.000    0.005    0.000 dseqrecord.py:974(__hash__)
+     3102    0.002    0.000    0.003    0.000 copyreg.py:87(__newobj__)
+     7891    0.002    0.000    0.002    0.000 dseq.py:1302(circular)
+     2196    0.001    0.000    0.001    0.000 SeqFeature.py:897(nofuzzy_start)
+     1492    0.001    0.000    0.002    0.000 SeqRecord.py:86(update)
+     6264    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+       81    0.001    0.000    0.002    0.000 dseq.py:546(__repr__)
+     1134    0.001    0.000    0.001    0.000 __init__.py:1370(__getitem__)
+     6824    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+       54    0.001    0.000    0.003    0.000 __init__.py:2022(add_edge)
+     1675    0.001    0.000    0.003    0.000 SeqRecord.py:715(__len__)
+     4761    0.001    0.000    0.001    0.000 Seq.py:128(__str__)
+     1782    0.001    0.000    0.001    0.000 SeqFeature.py:664(_set_strand)
+     6639    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+     2196    0.001    0.000    0.001    0.000 SeqFeature.py:183(_get_ref)
+     4817    0.001    0.000    0.001    0.000 dseq.py:1297(linear)
+      584    0.001    0.000    0.001    0.000 dseq.py:778(three_prime_end)
+      605    0.001    0.000    0.001    0.000 utils.py:26(rc)
+       20    0.001    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+      810    0.001    0.000    0.001    0.000 {method 'indices' of 'slice' objects}
+      814    0.001    0.000    0.001    0.000 dseqrecord.py:208(linear)
+     1151    0.001    0.000    0.001    0.000 SeqFeature.py:912(nofuzzy_end)
+      580    0.001    0.000    0.009    0.000 dseqrecord.py:922(<listcomp>)
+        4    0.001    0.000    0.001    0.000 __init__.py:2338(copy_property)
+     1134    0.001    0.000    0.001    0.000 __init__.py:404(__key_trans)
+     1095    0.001    0.000    0.015    0.000 dseq.py:645(reverse_complement)
+      750    0.001    0.000    0.001    0.000 {built-in method builtins.min}
+     3205    0.001    0.000    0.001    0.000 {built-in method builtins.id}
+      124    0.001    0.000    0.001    0.000 {built-in method builtins.sorted}
+     2196    0.001    0.000    0.001    0.000 SeqFeature.py:204(_get_ref_db)
+     3102    0.001    0.000    0.001    0.000 {built-in method builtins.issubclass}
+      839    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:996(_handle_fromlist)
+     3240    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+     3240    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+       20    0.000    0.000    1.336    0.067 rstr_max.py:135(go)
+      891    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+      258    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      592    0.000    0.000    0.000    0.000 dseq.py:728(five_prime_end)
+        1    0.000    0.000    1.808    1.808 <string>:1(<module>)
+        5    0.000    0.000    0.004    0.001 _simple_paths8_GT.py:53(all_circular_paths_edges)
+
+
+time graph nx- 0.0036056041717529297
+linear path 0.3097352981567383
+circular time 0.08701753616333008
