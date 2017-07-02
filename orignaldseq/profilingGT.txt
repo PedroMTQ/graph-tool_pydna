@@ -1,0 +1,110 @@
+Sat Jun 17 13:05:03 2017    restats
+
+         27422300 function calls (27413357 primitive calls) in 8.542 seconds
+
+   Ordered by: internal time
+   List reduced from 285 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     3324    3.219    0.001    4.321    0.001 dseq.py:328(<listcomp>)
+     3324    1.591    0.000    2.170    0.001 dseq.py:327(<listcomp>)
+ 17825339    1.117    0.000    1.117    0.000 {method 'lower' of 'str' objects}
+  8913570    0.579    0.000    0.579    0.000 {method 'strip' of 'str' objects}
+      284    0.461    0.002    0.461    0.002 tools_karkkainen_sanders.py:5(radixpass)
+    71/20    0.402    0.006    0.905    0.045 tools_karkkainen_sanders.py:39(kark_sort)
+    13295    0.149    0.000    0.149    0.000 {method 'join' of 'str' objects}
+       20    0.133    0.007    0.133    0.007 rstr_max.py:39(step2_lcp)
+       20    0.101    0.005    0.225    0.011 rstr_max.py:67(step3_rstr)
+    35000    0.083    0.000    0.093    0.000 rstr_max.py:118(removeMany)
+       72    0.068    0.001    0.078    0.001 utils.py:362(ChenFoxLyndonBreakpoints)
+     3324    0.064    0.000    6.750    0.002 dseq.py:282(__init__)
+       20    0.050    0.003    0.971    0.049 rstr_max.py:15(step1_sort_suffix)
+    84186    0.029    0.000    0.029    0.000 {built-in method builtins.max}
+     2315    0.027    0.000    0.134    0.000 dseqrecord.py:138(__init__)
+        1    0.024    0.024    8.541    8.541 assembly.py:126(__init__)
+       71    0.022    0.000    0.022    0.000 tools_karkkainen_sanders.py:48(<listcomp>)
+181627/172772    0.021    0.000    0.026    0.000 {built-in method builtins.len}
+     1620    0.021    0.000    2.263    0.001 dseq.py:416(__getitem__)
+       71    0.020    0.000    0.020    0.000 tools_karkkainen_sanders.py:77(<listcomp>)
+     6627    0.019    0.000    0.019    0.000 {method 'split' of 'str' objects}
+      810    0.016    0.000    1.211    0.001 SeqRecord.py:322(__getitem__)
+      960    0.016    0.000    0.016    0.000 __init__.py:440(__getitem__)
+     3115    0.015    0.000    0.029    0.000 copy.py:269(_reconstruct)
+     3929    0.012    0.000    0.012    0.000 {method 'translate' of 'str' objects}
+       20    0.011    0.001    0.921    0.046 tools_karkkainen_sanders.py:30(direct_kark_sort)
+     3929    0.011    0.000    0.023    0.000 utils.py:26(rc)
+     3115    0.010    0.000    0.053    0.000 copy.py:67(copy)
+     1787    0.010    0.000    0.038    0.000 SeqFeature.py:266(_shift)
+    11965    0.010    0.000    0.010    0.000 {built-in method builtins.hasattr}
+      815    0.010    0.000    0.010    0.000 {built-in method today}
+    53296    0.009    0.000    0.009    0.000 {method 'pop' of 'list' objects}
+      628    0.009    0.000    0.009    0.000 __init__.py:1746(vertex)
+       20    0.009    0.000    1.339    0.067 common_sub_strings.py:16(common_sub_strings)
+     5236    0.008    0.000    0.008    0.000 SeqRecord.py:72(__init__)
+      815    0.008    0.000    0.008    0.000 {method 'strftime' of 'datetime.date' objects}
+      810    0.008    0.000    2.411    0.003 dseqrecord.py:953(__getitem__)
+     2336    0.007    0.000    0.014    0.000 SeqRecord.py:300(_set_seq)
+      580    0.007    0.000    2.648    0.005 SeqRecord.py:769(__add__)
+     1395    0.007    0.000    0.013    0.000 SeqRecord.py:153(__init__)
+     3115    0.006    0.000    0.006    0.000 {method '__reduce_ex__' of 'object' objects}
+    28351    0.006    0.000    0.006    0.000 {built-in method builtins.isinstance}
+     1787    0.006    0.000    0.019    0.000 SeqFeature.py:842(_shift)
+     1787    0.006    0.000    0.006    0.000 SeqFeature.py:218(_get_location_operator)
+      217    0.006    0.000    0.034    0.000 _simple_paths8_GT.py:16(all_simple_paths_edges)
+     1505    0.005    0.000    0.012    0.000 SeqRecord.py:236(_set_per_letter_annotations)
+    54836    0.005    0.000    0.005    0.000 {method 'append' of 'list' objects}
+     3930    0.005    0.000    0.005    0.000 {method 'update' of 'dict' objects}
+     6230    0.005    0.000    0.005    0.000 {built-in method builtins.getattr}
+      580    0.005    0.000    2.692    0.005 dseqrecord.py:927(__add__)
+     3574    0.005    0.000    0.008    0.000 SeqFeature.py:1378(_shift)
+       20    0.004    0.000    0.004    0.000 tools_karkkainen_sanders.py:36(<listcomp>)
+      580    0.004    0.000    2.622    0.005 dseq.py:767(__add__)
+      260    0.004    0.000    0.012    0.000 __init__.py:1763(edge)
+    20280    0.004    0.000    0.004    0.000 {built-in method builtins.setattr}
+     1099    0.004    0.000    1.838    0.002 dseq.py:567(rc)
+    21078    0.004    0.000    0.004    0.000 SeqRecord.py:318(<lambda>)
+      854    0.004    0.000    0.038    0.000 assembly.py:59(__init__)
+     1827    0.003    0.000    0.005    0.000 SeqFeature.py:589(__init__)
+     7168    0.003    0.000    0.004    0.000 Seq.py:221(__len__)
+      174    0.003    0.000    0.003    0.000 __init__.py:458(__setitem__)
+     3324    0.003    0.000    0.004    0.000 Seq.py:82(__init__)
+     6793    0.003    0.000    0.003    0.000 {built-in method __new__ of type object at 0x7f12f68e3220}
+     1827    0.003    0.000    0.003    0.000 SeqFeature.py:91(__init__)
+     3654    0.002    0.000    0.004    0.000 SeqFeature.py:1358(__new__)
+      784    0.002    0.000    0.002    0.000 _simple_paths8_GT.py:19(<lambda>)
+     3115    0.002    0.000    0.003    0.000 copyreg.py:87(__newobj__)
+       81    0.002    0.000    0.004    0.000 dseqrecord.py:982(__hash__)
+     7912    0.002    0.000    0.002    0.000 dseq.py:1242(circular)
+     2196    0.002    0.000    0.002    0.000 SeqFeature.py:897(nofuzzy_start)
+     6290    0.001    0.000    0.001    0.000 {method 'get' of 'dict' objects}
+     2196    0.001    0.000    0.001    0.000 SeqFeature.py:183(_get_ref)
+     1134    0.001    0.000    0.001    0.000 __init__.py:1370(__getitem__)
+     1505    0.001    0.000    0.001    0.000 SeqRecord.py:86(update)
+     6895    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+     1689    0.001    0.000    0.003    0.000 SeqRecord.py:715(__len__)
+       81    0.001    0.000    0.002    0.000 dseq.py:491(__repr__)
+       54    0.001    0.000    0.002    0.000 __init__.py:2022(add_edge)
+     4753    0.001    0.000    0.001    0.000 Seq.py:128(__str__)
+     1827    0.001    0.000    0.001    0.000 SeqFeature.py:664(_set_strand)
+      584    0.001    0.000    0.001    0.000 dseq.py:720(three_prime_end)
+     4830    0.001    0.000    0.001    0.000 dseq.py:1237(linear)
+      810    0.001    0.000    0.001    0.000 {method 'indices' of 'slice' objects}
+     1099    0.001    0.000    1.839    0.002 dseq.py:590(reverse_complement)
+      814    0.001    0.000    0.001    0.000 dseqrecord.py:216(linear)
+       20    0.001    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+      750    0.001    0.000    0.001    0.000 {built-in method builtins.min}
+     3115    0.001    0.000    0.001    0.000 {built-in method builtins.issubclass}
+     2196    0.001    0.000    0.001    0.000 SeqFeature.py:204(_get_ref_db)
+      839    0.001    0.000    0.003    0.000 <frozen importlib._bootstrap>:996(_handle_fromlist)
+      580    0.001    0.000    0.009    0.000 dseqrecord.py:930(<listcomp>)
+     3240    0.001    0.000    0.001    0.000 {method 'lstrip' of 'str' objects}
+        4    0.001    0.000    0.001    0.000 __init__.py:2338(copy_property)
+     3218    0.001    0.000    0.001    0.000 {built-in method builtins.id}
+     1151    0.001    0.000    0.001    0.000 SeqFeature.py:912(nofuzzy_end)
+     1134    0.001    0.000    0.001    0.000 __init__.py:404(__key_trans)
+      124    0.001    0.000    0.001    0.000 {built-in method builtins.sorted}
+      592    0.000    0.000    0.000    0.000 dseq.py:670(five_prime_end)
+       20    0.000    0.000    1.330    0.066 rstr_max.py:135(go)
+        1    0.000    0.000    8.542    8.542 <string>:1(<module>)
+
+
